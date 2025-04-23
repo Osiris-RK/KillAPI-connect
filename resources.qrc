@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>KillAPI.ico</file>
+        <file>fonts/Roboto-Regular.ttf</file>
+        <file>fonts/Roboto-Bold.ttf</file>
+    </qresource>
+</RCC>

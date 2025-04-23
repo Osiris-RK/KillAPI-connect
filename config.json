@@ -1,0 +1,11 @@
+{
+    "patterns": {
+      "suicide": {
+        "regex": "<\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z> \\[Notice\\] <Actor Death> .* killed by '(.+)' \\[.*\\] using '.*' \\[Class Player\\].* with damage type 'Suicide'.*",
+        "message_format": "{player} dead (suicide)"
+      }
+    },
+    "log_poll_interval": 1,
+    "position_file": "log_position.dat"
+  }
+  

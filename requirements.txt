@@ -1,0 +1,6 @@
+watchdog
+requests
+PySide6
+psutil
+appdirs
+pyinstaller

@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onefile --name "KillAPi connect" --icon=KillAPI.ico --add-data "fonts;fonts" --add-data "KillAPI.ico;." --exclude-module PyQt5 --hidden-import logmonitor --hidden-import transmitter --hidden-import checkversion killfeed.py
