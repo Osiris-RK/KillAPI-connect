@@ -41,9 +41,13 @@ Once enabled, you’ll see notifications like this when pve/pvp events occur:
 
 # Killfeed API Commands Reference
 `/api subscribe` - Subscribe to API update events either from a channel or via DM (Admin Only)
+
 `/api unsubscribe` - Unsubscribe from API update events (Admin Only)
+
 `/api show_key` - Show API key in a DM for privacy and tracking purposes, creates a new API key if none exists.
+
 `/api killlog` - Show Killfeed log Panel for the current channel or in DM
+
 `/api remove_user` - Remove user from API key database (Admin Only)
 
 TODO: there are two commands that show up that are not documented: `/apikey refresh` and `/apikey show`. Either document or remove the commands.
